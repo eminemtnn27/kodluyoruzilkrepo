@@ -13,7 +13,8 @@
  function showTime() {
      let date = new Date();
      let yil = date.getFullYear();
-     let gun = date.getDay();
+     let gun = date.getDate();
+     let month = date.getMonth();
      let sa = date.getHours();
      let dk = date.getMinutes();
      let sn = date.getSeconds();
@@ -47,7 +48,7 @@
      sa = sa < 10 ? "0" + sa : sa;
      dk = dk < 10 ? "0" + dk : dk;
      sn = sn < 10 ? "0" + sn : sn;
-     let clock = sa + ":" + dk + ":" + sn + " " + gun + " " + yil;
+     let clock = sa + ":" + dk + ":" + sn + " " + gun + "/" + month + "/" + yil;
      document.querySelector("#myClock").textContent = clock;
      //Her 1 saniyede bir yenile
      setTimeout(showTime, 1000);
