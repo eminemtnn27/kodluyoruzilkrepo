@@ -14,7 +14,7 @@
      let date = new Date();
      let yil = date.getFullYear();
      let gun = date.getDate();
-     let month = date.getMonth();
+     let month = date.getMonth() + 1;
      let sa = date.getHours();
      let dk = date.getMinutes();
      let sn = date.getSeconds();
