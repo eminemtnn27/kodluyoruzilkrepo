@@ -1,15 +1,16 @@
-var myList=document.getElementsByTagName("LI");
-var close = document.getElementsByClassName("close"); 
-var list=document.getElementById('list');
+let list=document.getElementById('list');
+let items=document.getElementsByTagName("li");
+let close = document.getElementsByClassName("close"); 
+
 
 function newElement(){
-    var span=document.createElement("span");
-    var kapat = document.createTextNode("x");
-    var inputTxt=document.getElementById('task').value;
-    var li=document.createElement("li");
-    var t=document.createTextNode(inputTxt);
-    li.appendChild(t);
-    if (inputTxt === "") {
+    let öge=document.createElement("span");
+    let kaldir = document.createTextNode("x");
+    let inputTxt=document.getElementById('task').value;
+    let li=document.createElement("li");
+    let text=document.createTextNode(inputTxt);
+    li.appendChild(text);
+    if (inputTxt === "") { //boş girdi olursa
         $(".error").toast("show");
       } else {
         $(".success").toast("show");
@@ -17,9 +18,9 @@ function newElement(){
       }
       document.getElementById("task").value = "";
     
-    span.className="close";
-    span.appendChild(kapat);
-    li.appendChild(span)
+    öge.className="close";
+    öge.appendChild(kaldir);
+    li.appendChild(öge)
 
     for(var i=0; i<close.length;i++)
     {
@@ -27,8 +28,6 @@ function newElement(){
             var div = this.parentElement;
             div.style.display = "none";
             };
-    }
+    }// x e tıklandığında ögeyi kaldırır
    
     }
- 
- 
