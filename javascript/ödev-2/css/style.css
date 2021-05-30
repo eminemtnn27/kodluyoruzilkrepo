@@ -67,6 +67,7 @@ ul li.checked::before {
   padding: 30px 40px;
   color: white;
   text-align: center;
+   background-image: url("/b.png ")  ;
 }
 
 img {
@@ -104,4 +105,4 @@ input {
 
 .button:hover {
   background-color: #bbb;
-}
+} 
