@@ -31,3 +31,4 @@ function newElement(){
     }// x e tıklandığında ögeyi kaldırır
    
     }
+ 
