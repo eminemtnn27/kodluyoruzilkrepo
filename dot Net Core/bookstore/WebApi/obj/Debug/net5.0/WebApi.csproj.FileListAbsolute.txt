@@ -72,3 +72,4 @@ C:\Users\user\Desktop\dd\kodluyoruzilkrepo\dot Net Core\bookstore\WebApi\obj\Deb
 C:\Users\user\Desktop\dd\kodluyoruzilkrepo\dot Net Core\bookstore\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Users\user\Desktop\dd\kodluyoruzilkrepo\dot Net Core\bookstore\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\user\Desktop\dd\kodluyoruzilkrepo\dot Net Core\bookstore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Users\user\Desktop\dd\kodluyoruzilkrepo\dot Net Core\bookstore\WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll

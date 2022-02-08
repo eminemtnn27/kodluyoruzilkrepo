@@ -22,7 +22,7 @@ namespace WebApi.Application.GenreOperations.Queries.GetGenresDetail
         {
             var genre = _context.Genres.SingleOrDefault(x => x.IsActive && x.Id==GenreId);
             if (genre is null)
-                throw new InvalidOperationException("Kitap T  ürü Bulunmadı! ");
+                throw new InvalidOperationException("Kitap Türü Bulunmadı! ");
             return _mapper.Map<GenreDetailViewModel>(genre);
         }
     }
