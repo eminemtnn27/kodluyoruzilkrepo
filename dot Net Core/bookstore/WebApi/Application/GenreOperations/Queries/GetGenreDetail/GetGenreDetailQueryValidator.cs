@@ -7,9 +7,9 @@ using WebApi.Application.GenreOperations.Queries.GetGenresDetail;
 
 namespace WebApi.Application.GenreOperations.Queries.GetGenreDetail
 {
-    public class GetGenreDetailQueryValidatior:AbstractValidator<GetGenreDetailQuery>
+    public class GetGenreDetailQueryValidator:AbstractValidator<GetGenreDetailQuery>
     {
-        public GetGenreDetailQueryValidatior()
+        public GetGenreDetailQueryValidator()
         {
             RuleFor(query => query.GenreId).GreaterThan(0);
         }

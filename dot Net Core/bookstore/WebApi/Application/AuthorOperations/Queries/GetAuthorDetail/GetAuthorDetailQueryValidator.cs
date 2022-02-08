@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WebApi.Application.AuthorOperations.Queries.GetAuthorDetail
 {
-    public class GetAuthorDetailQueryValidatior : AbstractValidator<GetAuthorDetailQuery>
+    public class GetAuthorDetailQueryValidator : AbstractValidator<GetAuthorDetailQuery>
     {
-        public GetAuthorDetailQueryValidatior()
+        public GetAuthorDetailQueryValidator()
         {
             RuleFor(query => query.AuthorId).GreaterThan(0);
         }
