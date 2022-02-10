@@ -1014,11 +1014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\dd\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\patika-netcore\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\user\\Desktop\\dd\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\patika-netcore\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\dd\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\patika-netcore\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
