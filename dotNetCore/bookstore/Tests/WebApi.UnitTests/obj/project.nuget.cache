@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oKMAG0pJW5br+JpVHQ+mkPu5aTzoqHsIh4McnbQF3Tw0DUTATVGaMrPGoE1ftjGmTnJzK/XsB1ZTf8tfkj+tfg==",
+  "dgSpecHash": "T6MeLYO6ZWV+x6ngfEk7yoDoDnT9OzkCIeUvzR5RuEIGQAiQX177E8kf7tXbE1+fXZ52yXNqwJkS9mJ7/lYfew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\patika-netcore\\kodluyoruzilkrepo\\dot Net Core\\bookstore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\bookstore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
