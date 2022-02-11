@@ -6,7 +6,7 @@ using Xunit;
 
 namespace WebApi.UnitTests.Application.AuthorOperations.Commands.CreateCommand
 {
-    public class AuthorBookCommandValidatorTests : IClassFixture<CommonTestFixture>
+    public class CreateAuthorBookCommandValidatorTests : IClassFixture<CommonTestFixture>
     {  
         [Theory]
         [InlineData("Dostoyevski","fyodor" )]

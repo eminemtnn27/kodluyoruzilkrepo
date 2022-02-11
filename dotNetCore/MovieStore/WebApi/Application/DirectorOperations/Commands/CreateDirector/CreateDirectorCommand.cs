@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,10 +12,12 @@ namespace WebApi.Application.DirectorOperations.Commands.CreateDirector
     {
         public CreateDirectorModel Model { get; set; }
         private readonly IMovieStoreDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CreateDirectorCommand(IMovieStoreDbContext context, AutoMapper.IMapper _mapper)
+        public CreateDirectorCommand(IMovieStoreDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         public void Handle()
         {
