@@ -34,15 +34,21 @@ namespace WebApi.DbOperations
                 context.Director.AddRange(
                     new Director
                     {
-                        Name = "Christopher Nolan"
+                        Name = "Christopher Nolan",
+                        Surname="",
+                        directedMovie="interstellar"
                     },
                     new Director
                     {
-                        Name = "Alejandro Amenábar",
+                        Name = "Alejandro",
+                        Surname = " Amenábar",
+                        directedMovie = "The Others"
                     },
                     new Director
                     {
-                        Name = "Denis Villeneuve"
+                        Name = "Denis",
+                        Surname = "Villeneuve",
+                        directedMovie = "Dune"
                     }
                 );
                 context.Movie.AddRange(

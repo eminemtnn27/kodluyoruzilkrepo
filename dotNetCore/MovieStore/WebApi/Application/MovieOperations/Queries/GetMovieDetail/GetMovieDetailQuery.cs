@@ -22,7 +22,7 @@ namespace WebApi.MovieOperations.GetMovieDetail
         }
         public MovieDetailViewModel Handle()
         {
-            var movie = _dbContext.Movie.Include(x=>x.GenreId).Where(movie => movie.MovieId == MovieId).SingleOrDefault();
+            var movie = _dbContext.Movie.Where(movie => movie.MovieId == MovieId).SingleOrDefault();
             if (movie is null)
                 throw new InvalidOperationException("Film Bulunamadı ");
             MovieDetailViewModel view =_mapper.Map<MovieDetailViewModel>(movie); 

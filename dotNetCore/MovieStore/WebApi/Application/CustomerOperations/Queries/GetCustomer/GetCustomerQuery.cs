@@ -23,7 +23,7 @@ namespace WebApi.CustomerOperations.GetCustomer
         }
         public List<CustomerViewModel> Handle()
         {
-            var customerList = _dbContext.Customer.Include(x => x.CustomerId).OrderBy(a => a.CustomerId).ToList<Customer>();
+            var customerList = _dbContext.Customer.OrderBy(a => a.CustomerId).ToList<Customer>();
             List<CustomerViewModel> view = new List<CustomerViewModel>(); 
             return view;
         }
@@ -32,6 +32,7 @@ namespace WebApi.CustomerOperations.GetCustomer
     {
         public string Name { get; set; }
         public string GenreId { get; set; }
+        public string Surname { get; set; }
         public int Price { get; set; }
         public DateTime Year { get; set; }
     }

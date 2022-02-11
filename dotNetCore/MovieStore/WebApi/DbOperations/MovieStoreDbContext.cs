@@ -12,7 +12,7 @@ namespace WebApi.DbOperations{
         public DbSet<Director> Director { get; set; }
         public DbSet<Actor> Actor { get; set; }
         public DbSet<Customer> Customer { get; set; }
-        //public DbSet<BuyMovie> Orders { get; set; }
+        public DbSet<BuyMovie> Orders { get; set; }
 
         public override int SaveChanges()
         {
