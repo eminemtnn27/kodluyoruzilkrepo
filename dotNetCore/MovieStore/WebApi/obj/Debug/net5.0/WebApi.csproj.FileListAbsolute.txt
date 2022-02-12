@@ -36,3 +36,10 @@ C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\obj\
 C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
 C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\dotNetCore\MovieStore\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

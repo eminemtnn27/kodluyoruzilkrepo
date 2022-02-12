@@ -3,6 +3,7 @@ using WebApi.Application.ActorOperations.Queries.GetActor;
 using WebApi.Application.ActorOperations.Queries.GetActorDetail;
 using WebApi.Application.DirectorOperations.Queries.GetDirector;
 using WebApi.Application.DirectorOperations.Queries.GetDirectorDetail;
+using WebApi.Application.UserOperations.Commands.CreateUser;
 using WebApi.CustomerOperations.CreateCustomer;
 using WebApi.CustomerOperations.GetCustomer;
 using WebApi.Entities;
@@ -24,7 +25,7 @@ namespace WebApi.Common
             CreateMap<Director, DirectorDetailViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.DirectorId));
             CreateMap<Director, DirectorViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.DirectorId)); 
             CreateMap<Customer, CustomerViewModel>().ForMember(dest => dest.GenreId, opt => opt.MapFrom(src => src.CustomerId));
-
+            CreateMap<CreateUserModel, User>();
         }
     }
 
