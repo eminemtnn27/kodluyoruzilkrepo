@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\c#.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\Pratikler\\c#.csproj",
       "projectName": "c#",
-      "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\c#.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\Pratikler\\c#.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\c#\\Pratikler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",

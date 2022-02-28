@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.exe
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.deps.json
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.runtimeconfig.json
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.runtimeconfig.dev.json
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\ref\PhoneApp.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\bin\Debug\net5.0\PhoneApp.pdb
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.AssemblyInfo.cs
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\ref\PhoneApp.dll
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.pdb
+C:\Users\user\Desktop\patika\kodluyoruzilkrepo\c#\PhoneApp\obj\Debug\net5.0\PhoneApp.genruntimeconfig.cache
