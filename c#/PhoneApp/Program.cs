@@ -5,7 +5,7 @@ namespace PhoneApp
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
             run run = new run();
             run.Process();
             string number = Console.ReadLine();
