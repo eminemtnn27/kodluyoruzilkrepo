@@ -7,8 +7,7 @@ namespace PhoneApp
         static void Main(string[] args)
         {
             Run run = new Run();
-            run.Process();
-            string number = Console.ReadLine();
+            run.Work(); 
         }
     }
 
@@ -27,9 +26,9 @@ namespace PhoneApp
 
     public class Run
     {
-        public void Process()
+        public void Work()
         {
-            Console.WriteLine("Lütfen yapmak istedğiniz işlemi seçiniz :)" +
+            Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :)" +
             "\n*******************************************" +
             "\n(1)Yeni Numara Ekle" +
             "\n(2)Varolan Numarayı Sil" +
@@ -43,7 +42,7 @@ namespace PhoneApp
     public class Kullanicilar
     {
         public List<Person> kisi = new List<Person>();
-        public void User()
+        public void Kullanici()
         {
             kisi.Add(new Person("Nebat", "Met", "05545555555"));
             kisi.Add(new Person("Ümit", "Met", "05444444444")); 
@@ -63,9 +62,7 @@ namespace PhoneApp
             string soyad = Console.ReadLine();
             Console.WriteLine("Lütfen telefon numarası giriniz :");
             string telefon = Console.ReadLine();
-
             Person kisi = new Person(ad, soyad, telefon);
-
             Console.WriteLine("{0} telefon rehberine başarılı bir şekilde eklenmiştir.", kisi.ad);
         }
     }
