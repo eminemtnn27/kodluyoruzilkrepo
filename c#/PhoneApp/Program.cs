@@ -6,7 +6,7 @@ namespace PhoneApp
     {
         static void Main(string[] args)
         {
-            run run = new run();
+            Run run = new Run();
             run.Process();
             string number = Console.ReadLine();
         }
@@ -14,18 +14,18 @@ namespace PhoneApp
 
     public class Person
     {
-        public string name;
-        public string lastname;
-        public string phone;
-        public Person(string name, string lastname, string phone)
+        public string ad;
+        public string soyad;
+        public string telefon;
+        public Person(string ad, string soyad, string telefon)
         {
-            this.name = name;
-            this.lastname = lastname;
-            this.phone = phone;
+            this.ad = ad;
+            this.soyad = soyad;
+            this.telefon = telefon;
         }
     }
 
-    public class run
+    public class Run
     {
         public void Process()
         {
@@ -40,15 +40,33 @@ namespace PhoneApp
         }
     }
 
-    public class Users
+    public class Kullanicilar
     {
-        public List<Person> person = new List<Person>();
+        public List<Person> kisi = new List<Person>();
         public void User()
         {
-            person.Add(new Person("Emine", "Metin", "05545555555"));
-            person.Add(new Person("Ümit", "Met", "05444444444")); 
+            kisi.Add(new Person("Nebat", "Met", "05545555555"));
+            kisi.Add(new Person("Ümit", "Met", "05444444444")); 
+            kisi.Add(new Person("Zeynep", "Met", "05333333333")); 
+            kisi.Add(new Person("Tuba", "Met", "05222222222")); 
+            kisi.Add(new Person("Memet", "Met", "05111111111")); 
+        }
+        
+    }
+    public class Rehber:Kullanicilar
+    {
+     public void Ekle()
+        {
+            Console.WriteLine("Lütfen isim giriniz             :");
+            string ad = Console.ReadLine();
+            Console.WriteLine("Lütfen soyisim giriniz          :");
+            string soyad = Console.ReadLine();
+            Console.WriteLine("Lütfen telefon numarası giriniz :");
+            string telefon = Console.ReadLine();
 
+            Person kisi = new Person(ad, soyad, telefon);
+
+            Console.WriteLine("{0} telefon rehberine başarılı bir şekilde eklenmiştir.", kisi.ad);
         }
     }
- 
 }
