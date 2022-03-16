@@ -23,8 +23,8 @@ namespace WebApi.MovieOperations.GetMovie
         }
         public List<MovieViewModel> Handle()
         {
-            var movieList = _dbContext.Movie.OrderBy(a => a.MovieId).ToList();
-            List<MovieViewModel> view = new List<MovieViewModel>(); 
+            var movieList = _dbContext.Movie.OrderBy(a => a.MovieId);
+            List<MovieViewModel> view = _mapper.Map <List<MovieViewModel>>(movieList); 
             return view;
         }
     }
