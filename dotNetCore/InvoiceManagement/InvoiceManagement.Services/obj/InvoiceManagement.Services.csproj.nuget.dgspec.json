@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Services\\InvoiceManagement.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Services\\InvoiceManagement.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Services\\InvoiceManagement.Services.csproj",
+        "projectName": "InvoiceManagement.Services",
+        "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Services\\InvoiceManagement.Services.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -47,9 +47,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -63,9 +63,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

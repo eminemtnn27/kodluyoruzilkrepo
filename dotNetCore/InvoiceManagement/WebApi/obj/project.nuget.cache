@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FD0TW4mleKyo7xnzNLkGUmvy16BOFXYJXPf5pGClZ9K+u4sXJx3kGZeR+0i1qF+pX93yXFXL4W03kviaglWh7Q==",
+  "dgSpecHash": "wY0Wqr9Gs8B/DEWMpjmPUiVixezHpW6oD99BTOjj4s647gvpw61F39SVgxCZtu/SKPzLEyPyM1tzYHzRWin8lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\patika-netcore\\kodluyoruzilkrepo\\dot Net Core\\InvoiceManagement\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

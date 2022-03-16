@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Mvc\\InvoiceManagement.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Mvc\\InvoiceManagement.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Mvc\\InvoiceManagement.Mvc.csproj",
+        "projectName": "InvoiceManagement.Mvc",
+        "projectPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Mvc\\InvoiceManagement.Mvc.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\patika\\kodluyoruzilkrepo\\dotNetCore\\InvoiceManagement\\InvoiceManagement.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -46,12 +46,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
