@@ -24,17 +24,17 @@ namespace WebApi.MovieOperations.CreateMovie
             var movie = _dbContext.Movie.SingleOrDefault(a => a.Name == Model.Name);
             if (movie is not null)
                 throw new InvalidOperationException("Film zaten mevcut");
-            movie = _mapper.Map<Movie>(Model);
-
+            movie = new Movie();
+            movie.Name = Model.Name;
             _dbContext.Movie.Add(movie);
             _dbContext.SaveChanges();
+
         }
     }
     public class CreateMovieModel
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int GenreId { get; set; }
+        public string Name { get; set; } 
+        public int GenreId { get; set; } 
         public DateTime Year { get; set; }
     } 
 }

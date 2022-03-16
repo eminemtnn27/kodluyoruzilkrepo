@@ -11,10 +11,9 @@ namespace WebApi.MovieOperations.CreateMovie
     {
         public CreateMovieCommandValidator()
         {
-            RuleFor(command => command.Model.GenreId).GreaterThan(0);
+            RuleFor(command => command.Model.GenreId);
             RuleFor(command => command.Model.Name).NotEmpty().MinimumLength(3);
-            RuleFor(command => command.Model.Year.Date).NotEmpty().LessThan(DateTime.Now.Date);
-            RuleFor(command => command.Model.Surname).NotEmpty().MinimumLength(3);
+            RuleFor(command => command.Model.Year.Date).LessThan(DateTime.Now.Date); 
         }
     }
 }

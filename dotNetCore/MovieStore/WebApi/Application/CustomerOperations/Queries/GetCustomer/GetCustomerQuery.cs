@@ -23,15 +23,15 @@ namespace WebApi.CustomerOperations.GetCustomer
         }
         public List<CustomerViewModel> Handle()
         {
-            var customerList = _dbContext.Customer.OrderBy(a => a.CustomerId).ToList<Customer>();
-            List<CustomerViewModel> view = new List<CustomerViewModel>(); 
+            var customerList = _dbContext.Customer.OrderBy(a => a.CustomerId).ToList();
+            List<CustomerViewModel> view = _mapper.Map<List<CustomerViewModel>>(customerList); 
             return view;
         }
     }
     public class CustomerViewModel
     {
-        public string Name { get; set; }
-        public string GenreId { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; } 
         public string Surname { get; set; }
         public int Price { get; set; }
         public DateTime Year { get; set; }

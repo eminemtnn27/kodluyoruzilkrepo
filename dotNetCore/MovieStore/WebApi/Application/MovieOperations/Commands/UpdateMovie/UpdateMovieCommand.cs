@@ -28,7 +28,6 @@ namespace WebApi.MovieOperations.UpdateMovie
         public class UpdateMovieModel
         {
             public string Name { get; set; }
-            public string Surname { get; set; }
             public int GenreId { get; set; } 
             public DateTime Year { get; set; } 
         }

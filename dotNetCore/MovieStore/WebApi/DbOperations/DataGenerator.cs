@@ -20,14 +20,17 @@ namespace WebApi.DbOperations
                 context.Genre.AddRange(
                     new Genre
                     {
+                        Id=1,
                         Name = "Bilim Kurgu/Macera"
                     },
                     new Genre
                     {
+                        Id = 2,
                         Name = "Korku",
                     },
                     new Genre
                     {
+                        Id = 3,
                         Name = "Gerilim"
                     }
                 );
@@ -73,7 +76,7 @@ namespace WebApi.DbOperations
                     new Movie
                     { 
                         Name="Dune",
-                        GenreId=1,
+                        GenreId=3,
                         DirectorId = 3,
                         ActorId = 2,
                         Price =54,
@@ -121,17 +124,23 @@ namespace WebApi.DbOperations
                    new Customer
                    {
                        Name="emine",
-                       Surname="metin"
+                       Surname="metin",
+                       boughtMovie= "Interstellar",
+                       favMovie= "Interstellar"
                    },
                    new Customer
                    {
                        Name = "derya",
-                       Surname = "koç"
+                       Surname = "koç",
+                       boughtMovie = "Dune",
+                       favMovie = "Dune"
                    },
                    new Customer
                    {
                        Name = "barış",
-                       Surname = "deniz"
+                       Surname = "deniz",
+                       boughtMovie = "The Others",
+                       favMovie = "The Others"
                    }
                 );
                 context.SaveChanges();

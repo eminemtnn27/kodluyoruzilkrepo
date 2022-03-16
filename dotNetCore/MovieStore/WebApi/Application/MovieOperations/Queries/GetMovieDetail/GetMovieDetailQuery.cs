@@ -31,6 +31,7 @@ namespace WebApi.MovieOperations.GetMovieDetail
     }
     public class MovieDetailViewModel
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string GenreId { get; set; }
         public int Price { get; set; }

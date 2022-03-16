@@ -18,13 +18,13 @@ namespace WebApi.Common
         public MappingProfile()
         {
             CreateMap<CreateMovieModel, Movie>();
-            CreateMap<Movie, MovieDetailViewModel>().ForMember(dest => dest.GenreId, opt => opt.MapFrom(src => src.GenreId));
-            CreateMap<Movie, MovieViewModel>().ForMember(dest => dest.GenreId, opt => opt.MapFrom(src => src.GenreId));
+            CreateMap<Movie, MovieDetailViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.MovieId));
+            CreateMap<Movie, MovieViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.MovieId));
             CreateMap<Actor, ActorDetailViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.ActorId));
             CreateMap<Actor, ActorViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.ActorId));
             CreateMap<Director, DirectorDetailViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.DirectorId));
             CreateMap<Director, DirectorViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.DirectorId)); 
-            CreateMap<Customer, CustomerViewModel>().ForMember(dest => dest.GenreId, opt => opt.MapFrom(src => src.CustomerId));
+            CreateMap<Customer, CustomerViewModel>().ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.CustomerId));
             CreateMap<CreateUserModel, User>();
         }
     }
